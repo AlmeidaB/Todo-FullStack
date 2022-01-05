@@ -50,7 +50,7 @@ class CreateTodoComponent extends Component {
                                         <div className = "form-group">
                                             <label> Todo: </label>
                                             <input placeholder="Todo" name="todo" className="form-control" 
-                                                value={this.state.todo} onChange={this.changeTodoHandler}/>
+                                                value={this.state.todo} onChange={this.changeTodoHandler} maxlength="60" required/>
                                         </div>
                                         <div className = "form-group">
                                             <label> Description: </label>
